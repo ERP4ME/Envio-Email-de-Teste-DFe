@@ -1,0 +1,80 @@
+{
+    "empresa": {
+        "idExterno": "401241",
+        "razaoSocial": "TESTE CLIENTE NIMBUS",
+        "nomeFantasia": "TESTE",
+        "cnpj": "36462778000160",
+        "inscricaoEstadual": "99107014",
+        "endereco": {
+            "bairro": "CENTRO",
+            "cep": "20031901",
+            "cidade": "Angra dos Reis",
+            "logradouro": "TREZE DE MAIO",
+            "numero": "13",
+            "codigoMunicipioIBGE": "3300100",
+            "codigoPaisBacen": "1058",
+            "estado": {
+                "sigla": "RJ"
+            }
+        },
+        "regimeTributario": 1,
+        "regimeTributarioEnum": 1,
+        "telefoneSemFormatacao": "",
+        "cnpjSemFormatacao": "36462778000160"
+    },
+    "configuracao": {
+        "alPadraoCofins": 0,
+        "alPadraoPis": 0,
+        "regimeTributario": {
+            "idRegimeTributario": 1,
+            "descricao": "Simples Nacional"
+        },
+        "contribuinteIpi": false,
+        "alPadraoIpi": 0,
+        "mensagemSimplesNacional": "DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL. NÃO GERA DIREITO A CRÉDITO FISCAL DE IPI.",
+        "mensagemSimplesNacionalExcessoSublimite": "DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL. NÃO GERA DIREITO A CRÉDITO FISCAL DE IPI. ESTABELECIMENTO IMPEDIDO DE RECOLHER O ICMS/ISS PELO SIMPLES NACIONAL, NOS TERMOS DO § 1º DO ART. 20 DA LC 123/2006.",
+        "mensagemSimplesNacionalPermissaoCreditoIcms": "PERMITE O APROVEITAMENTO DO CRÉDITO DE ICMS NO VALOR DE R$ <<VALOR_CREDITO_ICMS>>; CORRESPONDENTE À ALÍQUOTA DE <<ALIQUOTA_CREDITO_ICMS>> NOS TERMOS DO ART. 23 DA LC 123/2006.",
+        "alPadraoIss": 0,
+        "tempoLimiteEsperaDLL": 120
+    },
+    "configuracaoProduto": {
+        "numeroCasasDecimaisQuantidade": 2,
+        "numeroCasasDecimaisPreco": 2,
+        "configuracaoCurvaAbc": {
+            "grupoA": 70,
+            "grupoB": 90,
+            "grupoC": 100,
+            "tipoLayoutCurvaAbc": 0,
+            "filtroCurvaAbc": {
+                "idsFornecedores": [],
+                "idsGrupos": [],
+                "idsCaracteristicas": []
+            }
+        }
+    },
+    "configuracaoServico": {
+        "numeroCasasDecimaisPrecoVenda": 2
+    },
+    "email": {
+        "emailRemetente": "alterdatamsdfe@yahoo.com",
+        "senha": "gvxbeliirwtyyalm",
+        "utilizaSSL": true,
+        "utilizaTLS": true,
+        "utilizaAutenticacao": true,
+        "copiaRemetente": false,
+        "conta": "alterdatamsdfe@yahoo.com",
+        "porta": 587,
+        "smtp": "smtp.mail.yahoo.com",
+        "enviaRetornoSefaz": false,
+        "enviaArquivoDistribuicao": true,
+        "enviaDanfe": true
+    },
+    "importacaoNota": {
+        "abaterValorICMS": false,
+        "abaterValorIPI": false,
+        "abaterValorFrete": false,
+        "abaterValorSeguro": false,
+        "abaterValorOutrasDespesas": false
+    },
+    "versao": 17
+}
