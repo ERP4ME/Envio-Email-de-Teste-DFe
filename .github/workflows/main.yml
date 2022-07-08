@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Run end-to-end tests on tablet viewport 🧪
+      - name: Run end-to-end tests on tablet viewpor 🧪
         uses: cypress-io/github-action@v2
         with:
           command: npm run test:envioEmailTeste
