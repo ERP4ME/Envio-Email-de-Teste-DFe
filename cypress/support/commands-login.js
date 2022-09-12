@@ -26,7 +26,7 @@ Cypress.Commands.add('login', (
 
 Cypress.Commands.add('AcessarSistema', () => {
   cy.visit('/')
-  cy.get(":nth-child(3) > .alt-lista-item-container")
+  cy.get(":nth-child(5) > .alt-lista-item-container")
     .should('be.visible')
     .click()
   cy.intercept('GET', '/koopon-core-rest-api/empresa/configuracoes/emissao/nota').as("AguardarPagina")
