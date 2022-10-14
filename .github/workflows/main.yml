@@ -19,3 +19,8 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           command: npm run test:envioEmailTeste
+      - name: Upload a Build Artifact
+        if: always()
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          path: cypress/videos
