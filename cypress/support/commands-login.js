@@ -27,6 +27,7 @@ Cypress.Commands.add('login', (
 
 Cypress.Commands.add('AcessarSistema', () => {
   cy.visit('/')
+  onBeforeLoad: window.localStorage.setItem('ULTIMA_EXIBICAO_NOVIDADES', '14/10/2022')
   cy.get(":nth-child(3) > .alt-lista-item-container")
     .should('be.visible')
     .click()
