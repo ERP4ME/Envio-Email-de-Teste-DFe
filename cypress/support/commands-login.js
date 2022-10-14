@@ -5,6 +5,7 @@ Cypress.Commands.add('login', (
 ) => {
   cy.session([username, password], () => {
     onBeforeLoad: window.localStorage.setItem('ULTIMA_EXIBICAO_NOVIDADES', '14/10/2022')
+    onBeforeLoad: window.localStorage.setItem('ARRAY_CRMS_NAO_EXIBIR_NOVIDADES', '["401241"]')
     cy.request({
       method: 'POST',
       url: '/passaporte-rest-api/rest/login',
